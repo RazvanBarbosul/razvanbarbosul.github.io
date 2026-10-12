@@ -45,14 +45,9 @@
 
   <h2>Analytics</h2>
   <p>
-    The Game's Unity project includes Unity's analytics module as part of the Unity engine
-    dependencies.
-  </p>
-  <p class="todo">
-    TODO (Razvan): confirm whether Unity Analytics is actively initialized and collecting data in
-    the shipped build, or only present as an unused engine dependency. Update this section (and the
-    data types collected) accordingly. No Firebase or crash-reporting SDK was found in the project
-    at the time this policy was written &mdash; update here if one is added later.
+    Unity Analytics is not used by the Game. The Unity engine includes an analytics module as a
+    bundled dependency, but it is not initialized or called anywhere in the Game's code. No
+    Firebase or crash-reporting SDK is used either.
   </p>
 
   <h2>Consent (UK / EEA users)</h2>
@@ -60,10 +55,7 @@
     If you are located in the UK or European Economic Area, the Game uses Google's User Messaging
     Platform (UMP) to show a consent message before loading personalized ads, in line with Google's
     EU User Consent Policy. You can change your ad consent choices at any time by
-  </p>
-  <p class="todo">
-    TODO (Razvan): add the in-game path to reopen the UMP consent form (e.g. Settings &rarr; Privacy
-    Options) once it's wired up, and confirm the UMP/consent SDK is integrated in the build.
+    tapping Settings &rarr; Privacy Options in the game.
   </p>
 
   <h2>Opting out of personalized ads</h2>
@@ -87,10 +79,6 @@
     We do not operate our own backend servers or databases for the Game, so we do not directly
     retain player data. Data collected by our advertising partners (AdMob, Unity Ads) is retained
     according to their own retention policies, linked above.
-  </p>
-  <p class="todo">
-    TODO (Razvan): if the Game adds cloud save, leaderboards, or any backend/account system, update
-    this section to describe what's stored, where, and for how long.
   </p>
 
   <h2>Your rights (GDPR / UK GDPR)</h2>

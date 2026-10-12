@@ -263,12 +263,3 @@ footer .footer-links {
   font-weight: 700;
   text-decoration: none;
 }
-
-.todo {
-  background: #fff3cd;
-  border: 1px dashed #c79100;
-  border-radius: 10px;
-  padding: 0.75rem 1rem;
-  font-size: 0.9rem;
-  color: #6b5200;
-}
